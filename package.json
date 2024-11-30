@@ -1,17 +1,23 @@
 {
   "name": "nodejs-hello",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js project to demonstrate package.json",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'No build process defined for this project'",
+    "test": "echo 'No test defined' && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nakoti/nodejs-hello.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "example",
+    "hello-world"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nakoti/nodejs-hello/issues"
