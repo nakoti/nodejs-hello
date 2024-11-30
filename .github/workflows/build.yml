@@ -17,5 +17,4 @@ jobs:
           node-version: '21.x'
           cache: 'npm'
       - run: npm install
-      - run: npm i -g @nestjs/cli
       - run: npm run build
