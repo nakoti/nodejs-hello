@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+env:
+  IMAGE_TAG: 'v${{github.run_id}}${{github.run_attempt}}'
+  
 jobs:
   Build-Docker:
     runs-on: ubuntu-latest
